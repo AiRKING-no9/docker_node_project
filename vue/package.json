@@ -5,10 +5,12 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "@vue/cli": "^4.0.5"
+    "@vue/cli": "^4.0.5",
+    "create-nuxt-app": "^2.11.1"
   },
   "scripts": {
-    "create_project": "vue create vue-practice-project"
+    "create_project": "vue create vue-practice-project",
+    "create_nuxt_project": "create-nuxt-app nuxt-practice-project"
   },
   "author": "",
   "license": "ISC"
