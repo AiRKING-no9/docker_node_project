@@ -1,0 +1,13 @@
+version: '3'
+services:
+  node:
+    container_name: node-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+    - ./react/usr/src/app:/react/usr/src/app
+    - ./vue:/vue
+    ports:
+    - "8080:8080"
+    tty: true

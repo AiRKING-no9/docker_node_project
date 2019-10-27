@@ -1,0 +1,15 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli": "^4.0.5"
+  },
+  "scripts": {
+    "create_project": "vue create vue-practice-project"
+  },
+  "author": "",
+  "license": "ISC"
+}
