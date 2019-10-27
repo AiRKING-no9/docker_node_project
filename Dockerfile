@@ -7,3 +7,7 @@ WORKDIR $VUE_APP_ROOT
 COPY ./vue/package.json ./
 COPY ./vue/package-lock.json ./
 RUN npm ci
+
+ENV HOST 0.0.0.0
+# コンテナポート
+EXPOSE 3000
