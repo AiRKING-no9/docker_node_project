@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-    - ./react/usr/src/app:/react/usr/src/app
+    - ./react:/react
     - ./vue:/vue
     ports:
       - "3000:3000"
